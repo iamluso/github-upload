@@ -21,7 +21,7 @@ namespace AsyncSample
 
         private async void button1_Click_Async(object sender, EventArgs e)
         {
-            // Runs a background task without frozing the UI -- added by luisgs
+            // Runs a background task without frozing the UI -- added by luisgs -- new added
             var result = await Task.Run(() => SlowTask());
         }
 
